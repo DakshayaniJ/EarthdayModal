@@ -11,7 +11,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .earthday_modal {
@@ -155,6 +155,13 @@ img {
 }
 
 @media screen and (max-width:300px) and (max-height:400px) {
+    .earthday_popup{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
     .earthday_modal {
         width: 300px;
         height: 400px;
@@ -177,6 +184,13 @@ img {
         letter-spacing: 0.24px;
         width: 51px;
         font-family: 'Noto Sans', 'Sans Serif';
+    }
+
+    .earthday_close_button_link {
+        padding: 10px;
+        cursor: pointer;
+        color: #262629;
+        text-decoration: none;
     }
 
     .earthday_logo {
